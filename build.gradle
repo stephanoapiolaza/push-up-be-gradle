@@ -34,9 +34,11 @@ dependencies {
   compile("org.springframework.boot:spring-boot-starter-tomcat")
   compile("org.springframework.boot:spring-boot-starter-actuator")
   testCompile("org.springframework.boot:spring-boot-starter-test")
-
   compile 'com.google.appengine:appengine:+'
-
+  compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+  compile 'nl.martijndwars:web-push:3.0.2'
+  compile 'com.mikesamuel:json-sanitizer:1.1'
+  compile 'net.minidev:json-smart:1.0.9'
 }
 
 
